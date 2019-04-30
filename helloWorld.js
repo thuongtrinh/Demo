@@ -1,3 +1,3 @@
 
-var aniaml = "Tiger";
-console.log(aniaml);
+var animal = "Tiger";
+console.log(animal);
