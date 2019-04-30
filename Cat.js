@@ -5,5 +5,5 @@ class Cat {
 
     printName(){
         console.log(name);
-    }
+    }    
 }
