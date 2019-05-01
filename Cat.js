@@ -4,6 +4,6 @@ class Cat {
     age =10;
 
     printName(){
-        console.log(name);
+        console.log(name + ", age " + age);
     }    
 }
