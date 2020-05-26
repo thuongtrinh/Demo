@@ -1,5 +1,6 @@
 package txt.java.deadlock;
 
+//https://bliem.wordpress.com/2013/04/29/multithread-trong-java-phan-5/comment-page-1/
 //An example of deadlock.
 
 class A {
