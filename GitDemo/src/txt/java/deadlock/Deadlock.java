@@ -1,9 +1,13 @@
 package txt.java.deadlock;
 
 //https://bliem.wordpress.com/2013/04/29/multithread-trong-java-phan-5/comment-page-1/
-//An example of deadlock.
+/*
+ * An example of deadlock.
+ */
 
 class A {
+
+	//class A
 	public A() {
 		System.out.println("Contructor A");
 	}
@@ -25,6 +29,8 @@ class A {
 	}
 }
 
+
+// Class B
 class B {
 	public B() {
 		System.out.println("Contructor B");
