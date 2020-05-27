@@ -5,7 +5,8 @@ package txt.java.deadlock;
  * An example of deadlock.
  */
 
-class A {
+class 
+A {
 
 	//class A
 	public A() {
@@ -28,7 +29,6 @@ class A {
 		System.out.println("Inside A.last");
 	}
 }
-
 
 // Class B
 class B {
