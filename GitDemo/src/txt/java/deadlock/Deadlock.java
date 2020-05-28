@@ -9,7 +9,6 @@ package txt.java.deadlock;
 
 class A {
 
-	//class A
 	public A() {
 		System.out.println("Contructor A");
 	}
@@ -31,8 +30,6 @@ class A {
 	}
 }
 
-
-// Class B
 class B {
 	public B() {
 		System.out.println("Contructor B");
