@@ -1,6 +1,7 @@
 package txt.java.deadlock;
 
 class Q {
+
 	int n;
 
 	synchronized int get() {
@@ -15,6 +16,7 @@ class Q {
 }
 
 class Producer implements Runnable {
+
 	Q q;
 
 	Producer(Q q) {
@@ -33,6 +35,7 @@ class Producer implements Runnable {
 }
 
 class Consumer implements Runnable {
+
 	Q q;
 
 	Consumer(Q q) {
@@ -54,6 +57,7 @@ class Consumer implements Runnable {
 }
 
 public class PC {
+
 	public static void main(String[] args) {
 		Q q = new Q();
 		new Producer(q);
