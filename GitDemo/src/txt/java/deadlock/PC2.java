@@ -1,6 +1,11 @@
 package txt.java.deadlock;
 
-//An incorrect implementation of a producer and consumer.
+/**
+ * @comment An incorrect implementation of a producer and consumer.
+ * @author thuongtx
+ *
+ */
+//
 class Q2 {
 	int n;
 	boolean valueSet = false;

@@ -1,5 +1,10 @@
 package txt.java.deadlock;
 
+/**
+ * @comment class Q
+ * @author thuongtx
+ *
+ */
 class Q {
 
 	int n;
