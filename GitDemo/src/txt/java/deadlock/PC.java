@@ -3,7 +3,7 @@ package txt.java.deadlock;
 /**
  * @comment class Q
  * @author thuongtx
- *
+ * popo
  */
 class Q {
 
