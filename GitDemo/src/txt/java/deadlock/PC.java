@@ -3,6 +3,7 @@ package txt.java.deadlock;
 /**
  * @comment class Q
  * @author thuongtx
+ * @date 2020-06-04
  * popo
  */
 class Q {
