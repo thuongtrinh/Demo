@@ -6,7 +6,6 @@ package txt.java.deadlock;
  * @date 2020-06-04
  */
 class Q {
-
 	int n;
 
 	synchronized int get() {
@@ -21,7 +20,6 @@ class Q {
 }
 
 class Producer implements Runnable {
-
 	Q q;
 
 	Producer(Q q) {
@@ -40,7 +38,6 @@ class Producer implements Runnable {
 }
 
 class Consumer implements Runnable {
-
 	Q q;
 
 	Consumer(Q q) {
