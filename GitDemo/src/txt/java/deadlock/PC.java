@@ -10,6 +10,7 @@ class Q {
 	int n;
 
 	synchronized int get() {
+		System.out.println("--GET() method--");
 		System.out.println("Got: " + n);
 		return n;
 	}
